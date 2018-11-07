@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <!-- Setting page title -->
+  <title>Stefano Picker</title>
+  <!-- Establishing character set -->
+  <meta charset="UTF-8">
+  <!-- Linking Bootstrap for element positioning -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Linking my own stylesheet for coloring and additional formatting -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Creating the navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" id="ste-brand">Stefano Picker</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+<!-- Creating main container -->
+    <div  class="container" id="main-container">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12" id="white-box">
+
+                    <h2>Contact Me</h2>
+                
+                    <!-- Creating the contact form -->
+                    <form id="contact-form">
+                    <label for="name">Name</label>
+                    <br>
+                    <input id="name" type="text" placeholder="John Smith">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input id="email" type="text" placeholder="you@example.com">
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" placeholder="Please type your message here..."></textarea>
+                    <br>
+                    <button class="button" type="submit" id="submit-button">Submit</button>
+                    <br>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+            © 2018 Stefano Picker
+    </div>
+    
+    <!-- Including Bootstrap Javascript for elements like the hamburger-menu on mobile -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
